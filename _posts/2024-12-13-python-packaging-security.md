@@ -46,7 +46,7 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 - ✅ Add automated checks to ensure releases are authorized and secure.
 
 ### Strengthen PyPI security
-- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI.
+- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI and **always** set the validated environment in it.
 - 📱 Enable 2FA for your PyPI account and store recovery codes securely.
 
 These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
