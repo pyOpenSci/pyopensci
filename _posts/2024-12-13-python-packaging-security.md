@@ -49,10 +49,10 @@ The Ultralytics breach is a wake-up call for all maintainers: secure your workfl
 - Delete old GitHub tokens that you are no longer using. And Refresh existing tokens that you need periodically.
 
 ### Strengthen PyPI security
-- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI.
-- Make sure you store recovery codes securely for PyPI 2-factor authentication (2FA).
 
-These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait—start securing your workflows today.
+- 🔑 Set up Trusted Publisher for tokenless authentication with PyPI and **always** set the validated environment.
+
+These steps will significantly reduce risks to your packages, contributors, and the broader Python ecosystem. Don’t wait — start securing your workflows today.
 </div>
 
 
@@ -170,6 +170,7 @@ NOTE: vI don't fully agree with that note on unauthorized publication. Unauthori
 
 The basic steps associated with Trusted Publisher are:
 1. Go to your PyPI account and add a trusted publisher workflow to your account.
+<<<<<<< HEAD
 2. Fill out a form that looks like the one below. Notice that it asks for your workflow name, environment (STRONGLY recommended), and package name.
 3. Update your GitHub action workflow to reference the Trusted Publisher configuration.
 
